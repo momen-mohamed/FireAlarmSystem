@@ -10,7 +10,7 @@
 #define KEYPAD_CFG_H_
 
 #define FIRST_OUTPUT PINB4
-#define FIRST_INPUT  PIND0
+#define FIRST_INPUT  PIND2
 #define NO_KEY	'T'
 
 #define ROWS 4
@@ -19,9 +19,9 @@
 
 #if KEYPAD_PRG
 static u8 KeysArr[ROWS][COLS] = {{'7','8','9','/'},
-						  {'4','5','6','*'},
-						  {'1','2','3','-'},
-						  {'C','0','=','+'},};
+						        {'4','5','6','*'},
+						        {'1','2','3','-'},
+						        {'C','0','=','+'},};
 #endif
 
 
