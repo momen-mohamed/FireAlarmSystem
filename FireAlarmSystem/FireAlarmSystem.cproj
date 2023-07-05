@@ -137,6 +137,30 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="APP\SMOKE_Filter.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\SMOKE_Filter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\SYSTEM_Cfg.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\SYSTEM_Manager.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\SYSTEM_Manager.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\SYSTEM_Manager_Private.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\TEMP_Filter.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\TEMP_Filter.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="CFG\DIO_Cfg\DIO_Cfg.c">
       <SubType>compile</SubType>
     </Compile>
