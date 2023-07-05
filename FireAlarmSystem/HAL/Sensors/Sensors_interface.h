@@ -11,8 +11,8 @@
 
 
 u16 TEMP_Read(void);
+u16 SMOKE_Read(void);
 u16 PRESSURE_Read(void);
-u16 TEMP_Read_Volt(void);
 
 
 #endif /* SENSORS_INTERFACE_H_ */

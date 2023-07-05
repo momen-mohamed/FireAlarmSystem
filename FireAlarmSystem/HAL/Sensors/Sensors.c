@@ -7,17 +7,17 @@
 //return temp c * 10
 u16 TEMP_Read(void){
 	u16 temp;
-	temp = (ADC_Read(LM35_CH) * (u32)1500) / 308;
+	temp = (ADC_Read(LM35_CH) * (u32)100) / 1023;
 	return temp;
 }
 
 
-u16 TEMP_Read_Volt(void){
-	u16 volt = ADC_VoltRead(LM35_CH);
-	u16 temp;
-	temp = volt;
-	return temp;
+u16 SMOKE_Read(void){
+	u16 smoke;
+	smoke = (ADC_Read(SMOKE_CH) * (u32)100) / 1023;
+	return smoke;
 }
+
 
 u16 PRESSURE_Read(void){
 	
