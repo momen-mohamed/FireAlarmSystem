@@ -20,5 +20,6 @@ typedef enum {
 }Sign_type;
 
 u8 strLen(c8* str);
+Bool_t string_compare(char *str1, char *str2);
 
 #endif /* UTILS_H_ */
