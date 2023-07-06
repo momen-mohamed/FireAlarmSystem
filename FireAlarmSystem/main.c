@@ -7,6 +7,8 @@
 #include "TEMP_Filter.h"
 #include "SMOKE_Filter.h"
 #include "SYSTEM_Manager.h"
+#include "MOTOR_Interface.h"
+#include "MOTION.h"
 #define F_CPU 8000000
 #include <util/delay.h>
 
@@ -20,6 +22,9 @@ int main(void)
 	TEMP_FilterInit();
 	SMOKE_FilterInit();
 	SYSTEM_ManagerInit();
+	MOTOR_Init();
+	MOTION_Init();
+	
 	
 	while (1)
 	{
@@ -29,6 +34,7 @@ int main(void)
 			SMOKE_FilterRunnable();
 		}
 		SYSTEM_ManagerRunnable();
+		MOTION_Runnable();
 	}
 }
 

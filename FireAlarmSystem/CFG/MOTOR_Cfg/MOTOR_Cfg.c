@@ -14,19 +14,19 @@
 
 const MOTOR_Config_Type MOTOR_PinsConifgArr[TOTAL_MOTORS] = {
 	{
-		.M_IN1 = PINA0,		//M1_INIT1
-		.M_IN2 = PINA1		//M2_INIT2
+		.M_IN1 = PINC6,		//M1_INIT1
+		.M_IN2 = PINC7		//M2_INIT2
 	},
 	{
-		.M_IN1 = PINA2,		//M2_INIT1
-		.M_IN2 = PINA3,		//M2_INIT2
+		.M_IN1 = PINB2,		//M2_INIT1
+		.M_IN2 = PINB3,		//M2_INIT2
 	},
 	{
-		.M_IN1 = PINA3,		//M3_INIT1
-		.M_IN2 = PINA4,		//M3_INIT2
+		.M_IN1 = PINC0,		//M3_INIT1
+		.M_IN2 = PINC1,		//M3_INIT2
 	},
 	{
-		.M_IN1 = PINA5,		//M4_INIT1
-		.M_IN2 = PINA6,		//M4_INIT2
+		.M_IN1 = PINC2,		//M4_INIT1
+		.M_IN2 = PINC3,		//M4_INIT2
 	},
 };

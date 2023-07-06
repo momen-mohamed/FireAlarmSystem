@@ -120,7 +120,7 @@ static void fireStateRunnable(){
 		LCD_Clear();
 		resetLeds();
 		DIO_WritePin(PINC0,HIGH);
-		//DIO_WritePin(PINC5,HIGH);
+		DIO_WritePin(PINC5,HIGH);
 		LCD_GoTo(0,6);
 		LCD_WriteString("FIRE");
 		LCD_GoTo(1,0);

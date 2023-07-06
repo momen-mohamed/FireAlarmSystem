@@ -10,7 +10,7 @@
 #define MOTOR_INTERFACE_H_
 
 typedef enum{
-	M1,
+	M1 = 0,
 	M2,
 	M3,
 	M4,

@@ -137,6 +137,12 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="APP\MOTION.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\MOTION.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="APP\SMOKE_Filter.c">
       <SubType>compile</SubType>
     </Compile>
